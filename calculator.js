@@ -4,8 +4,8 @@ function calculate() {
   let result;
   let operation;
 
-  num1 = document.getElementById("firstOperand").value;
-  num2 = document.getElementById("secondOperand").value;
+  num1 = parseFloat(document.getElementById("firstOperand").value);
+  num2 = parseFloat(document.getElementById("secondOperand").value);
 
   result = document.getElementById("result").value;
   operation = document.getElementById("operation").value;
